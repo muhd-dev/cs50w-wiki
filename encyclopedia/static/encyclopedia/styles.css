@@ -1,0 +1,78 @@
+/* Customize the navbar */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Adjust the logo size and alignment */
+.logo-small img {
+    
+    margin-right: 10px; /* Add margin to separate it from other elements */
+}
+
+/* Style the site name */
+.site-name {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem; /* Adjust the font size as needed */
+}
+
+/* Style the search form */
+.form-inline .form-control {
+    border: 2px solid #007bff;
+}
+
+.form-inline .btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Adjust sidebar styles */
+.sidebar {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+/* Style the main content area */
+.main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-font {
+    font-family: 'open sans', sans-serif;
+}
+
+
+/* Add a subtle footer */
+.footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .logo-small img {
+        max-width: 50px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        margin-top: 20px;
+    }
+}
